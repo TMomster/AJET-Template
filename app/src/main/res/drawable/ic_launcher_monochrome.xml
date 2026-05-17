@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 单色图标：纯色路径，系统会自动应用主题色 -->
+    <!-- 白色圆角方块 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30h48v48h-48z"/>
+    
+    <!-- 左眼（挖空效果） -->
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M42,42m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+    
+    <!-- 右眼（挖空效果） -->
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M66,42m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+    
+    <!-- 嘴巴（挖空效果） -->
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M42,58c0,8 5.37,14 12,14s12,-6 12,-14z"/>
+</vector>

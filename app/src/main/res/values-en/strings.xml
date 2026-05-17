@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">AJET</string>
+    <string name="welcome_title">Welcome to Ajet Demo</string>
+    <string name="welcome_subtitle">Android feature demo built with Material Design 3 + Jetpack Compose</string>
+    <string name="category_project_config">Project Config</string>
+    <string name="category_project_config_desc">Versions, Dependencies, Environment</string>
+    <string name="category_ui_components">UI Components</string>
+    <string name="category_ui_components_desc">Buttons, Cards, Lists</string>
+    <string name="category_data_storage">Data Storage</string>
+    <string name="category_data_storage_desc">Preferences, DataStore</string>
+    <string name="category_network">Network</string>
+    <string name="category_network_desc">Retrofit, OkHttp</string>
+    <string name="build_id_label">Build</string>
+    <string name="company_name">MomsterTech</string>
+    <string name="feature_not_implemented">Feature not implemented</string>
+    <string name="config_versions">Version Info</string>
+    <string name="config_dependencies">Dependencies</string>
+    <string name="config_environment">Environment</string>
+    <string name="back">Back</string>
+    <string name="switch_to_light_theme">Switch to light theme</string>
+    <string name="switch_to_dark_theme">Switch to dark theme</string>
+    <string name="build_tools">Build Tools</string>
+    <string name="build_tools_en">Build Tools</string>
+    <string name="sdk_config">SDK Configuration</string>
+    <string name="sdk_config_en">SDK Configuration</string>
+    <string name="ui_framework">UI Framework</string>
+    <string name="ui_framework_en">UI Framework</string>
+    <string name="app_info">Application Info</string>
+    <string name="app_info_en">Application Info</string>
+    <string name="build_settings">Build Settings</string>
+    <string name="build_settings_en">Build Settings</string>
+    <string name="tip">Tip</string>
+    <string name="tip_content">This project can serve as a template base for M3 + Compose development.\nAll configurations are optimized and ready for new projects.</string>
+    <string name="package_name">Package Name</string>
+    <string name="version_code">Version Code</string>
+    <string name="version_name">Version Name</string>
+    <string name="namespace">Namespace</string>
+    <string name="compile_sdk">Compile SDK</string>
+    <string name="min_sdk">Min SDK</string>
+    <string name="target_sdk">Target SDK</string>
+    <string name="minification">Minification</string>
+    <string name="compose">Compose</string>
+    <string name="disabled">Disabled</string>
+    <string name="enabled">Enabled</string>
+    
+    <!-- Categories -->
+    <string name="category_theme">M3 Theme System</string>
+    <string name="category_theme_desc">Dynamic colors, theme switching, font scaling</string>
+    <string name="category_components">M3 Component Gallery</string>
+    <string name="category_components_desc">Complete Material 3 component library showcase</string>
+    <string name="category_layout">Layout System</string>
+    <string name="category_layout_desc">Column/Row/LazyList/Grid layouts</string>
+    <string name="category_state">State &amp; Data Flow</string>
+    <string name="category_state_desc">remember/StateFlow/ViewModel</string>
+    <string name="category_navigation">Navigation System</string>
+    <string name="category_navigation_desc">NavHost/Arguments/Nested navigation</string>
+    <string name="category_animation">Animations</string>
+    <string name="category_animation_desc">AnimatedVisibility/transitions</string>
+    
+    <!-- Theme Items -->
+    <string name="theme_dynamic_color">Dynamic Color</string>
+    <string name="theme_dynamic_color_desc">Extract colors from system wallpaper</string>
+    <string name="theme_toggle">Theme Toggle</string>
+    <string name="theme_toggle_desc">Light/Dark/AMOLED modes</string>
+    <string name="theme_typography">Typography</string>
+    <string name="theme_typography_desc">Font scaling and styles</string>
+    <string name="theme_shapes">Shapes</string>
+    <string name="theme_shapes_desc">Corners and applications</string>
+    
+    <!-- Dynamic Color Screen -->
+    <string name="dynamic_color_title">🎨 Dynamic Color</string>
+    <string name="dynamic_color_intro">Material You dynamic color extracts colors from your wallpaper and applies them throughout the app.</string>
+    <string name="dynamic_color_note">Note: This feature is only available on Android 12 (API 31) and above.</string>
+    <string name="device_info">📱 Device Info</string>
+    <string name="android_version">Android Version</string>
+    <string name="dynamic_color_support">Dynamic Color Support</string>
+    <string name="supported">✅ Supported</string>
+    <string name="not_supported">❌ Not Supported</string>
+    <string name="current_color_scheme">🌈 Current Color Scheme</string>
+    <string name="container_colors">📦 Container Colors</string>
+    
+    <!-- Theme Toggle Screen -->
+    <string name="theme_toggle_title">🌓 Theme Toggle</string>
+    <string name="theme_toggle_intro">Material Design 3 supports light, dark, and system-follow theme modes. Experience different themes here.</string>
+    <string name="select_theme_mode">⚙️ Select Theme Mode</string>
+    <string name="follow_system">Follow System</string>
+    <string name="follow_system_desc">Automatically switch between light/dark based on system settings</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="light_theme_desc">Always use light theme, suitable for daytime</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="dark_theme_desc">Always use dark theme, suitable for nighttime</string>
+    <string name="amoled_theme">AMOLED Theme</string>
+    <string name="amoled_theme_desc">Use pure black background to save OLED screen battery</string>
+    <string name="current_preview">👁️ Current Theme Preview</string>
+    <string name="current_mode">Current Mode</string>
+    <string name="background_color">Background Color</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="pure_black">Pure Black</string>
+    <string name="theme_features">💡 Theme Features</string>
+    <string name="feature_smooth_transition">✅ Smooth transition animations</string>
+    <string name="feature_user_preference">✅ Preserves user preferences</string>
+    <string name="feature_dynamic_color">✅ Supports dynamic color extraction</string>
+    <string name="feature_accessibility">✅ Meets accessibility standards</string>
+    <string name="feature_m3_components">✅ Compatible with all M3 components</string>
+    
+    <!-- Typography Screen -->
+    <string name="typography_title">🔤 Typography</string>
+    <string name="typography_intro">Material Design 3 provides a complete font scaling and styling system, supporting various text styles from headlines to body text.</string>
+    <string name="font_scale">📏 Font Scale</string>
+    <string name="current_scale">Current Scale</string>
+    <string name="small">Small</string>
+    <string name="standard">Standard</string>
+    <string name="large">Large</string>
+    <string name="display_styles">📺 Display Styles</string>
+    <string name="headline_styles">📰 Headline Styles</string>
+    <string name="title_styles">📝 Title Styles</string>
+    <string name="body_styles">📄 Body Styles</string>
+    <string name="label_styles">🏷️ Label Styles</string>
+    <string name="font_weight">⚖️ Font Weight</string>
+    <string name="body_large_desc">For long paragraph text, providing good readability</string>
+    <string name="body_medium_desc">For medium-length text content</string>
+    <string name="body_small_desc">For auxiliary information and secondary text</string>
+    
+    <!-- Shapes Screen -->
+    <string name="shapes_title">🔷 Shapes</string>
+    <string name="shapes_intro">Material Design 3 shape system defines component corners and outlines, providing a consistent visual language for apps.</string>
+    <string name="small_shapes">📏 Small Shapes (4dp)</string>
+    <string name="medium_shapes">📐 Medium Shapes (8dp)</string>
+    <string name="large_shapes">📊 Large Shapes (12dp+)</string>
+    <string name="custom_shapes">🎨 Custom Shapes</string>
+    <string name="circle_shape">Perfectly circular shape</string>
+    <string name="rectangle_shape">Rectangle without rounded corners</string>
+    <string name="cut_corner_shape">Cut corner shape for special design needs</string>
+    <string name="practical_examples">💼 Practical Examples</string>
+    <string name="small_round_button">Small round button</string>
+    <string name="medium_round_button">Medium round button</string>
+    <string name="large_round_button">Large round button</string>
+    <string name="medium_round_card">Medium round card</string>
+    <string name="chip_shape">Chip shape</string>
+    <string name="usage_tips">💡 Usage Tips</string>
+    <string name="tip_consistency">• Maintain consistency: Use the same shape proportions throughout the app</string>
+    <string name="tip_accessibility">• Consider accessibility: Ensure sufficient contrast and touch target size</string>
+    <string name="tip_brand">• Brand expression: Convey brand personality through shapes (rounded friendly vs sharp professional)</string>
+    <string name="tip_hierarchy">• Hierarchy: Use different shape sizes to distinguish component importance</string>
+    <string name="tip_platform">• Platform adaptation: Follow design specifications and user expectations of each platform</string>
+    <string name="small_shape_desc">For small components like chips and buttons</string>
+    <string name="medium_shape_desc">For medium components like cards and dialogs</string>
+    <string name="large_shape_desc">For large components like bottom sheets and full-screen dialogs</string>
+    
+    <!-- Component Items -->
+    <string name="comp_buttons">Buttons</string>
+    <string name="comp_buttons_desc">Filled/Outlined/Text buttons</string>
+    <string name="comp_cards">Cards</string>
+    <string name="comp_cards_desc">Different card styles</string>
+    <string name="comp_textfields">Text Fields</string>
+    <string name="comp_textfields_desc">TextField various states</string>
+    <string name="comp_dialogs">Dialogs</string>
+    <string name="comp_dialogs_desc">Simple/Full-screen dialogs</string>
+    <string name="comp_snackbar">Snackbar</string>
+    <string name="comp_snackbar_desc">Temporary messages</string>
+    <string name="comp_chips">Chips</string>
+    <string name="comp_chips_desc">Filter/Input/Suggestion chips</string>
+    <string name="comp_sliders">Sliders</string>
+    <string name="comp_sliders_desc">Continuous/Discrete sliders</string>
+    <string name="comp_progress">Progress Indicators</string>
+    <string name="comp_progress_desc">Linear/Circular progress</string>
+    <string name="comp_selection">Selection Controls</string>
+    <string name="comp_selection_desc">Checkbox/Radio/Switch</string>
+    
+    <!-- Layout Items -->
+    <string name="layout_basic">Basic Layout</string>
+    <string name="layout_basic_desc">Column/Row/Box</string>
+    <string name="layout_list">Lists</string>
+    <string name="layout_list_desc">LazyColumn examples</string>
+    <string name="layout_grid">Grids</string>
+    <string name="layout_grid_desc">LazyVerticalGrid</string>
+    <string name="layout_constraint">Constraint Layout</string>
+    <string name="layout_constraint_desc">ConstraintLayout</string>
+    
+    <!-- State Items -->
+    <string name="state_remember">remember</string>
+    <string name="state_remember_desc">State management basics</string>
+    <string name="state_viewmodel">ViewModel</string>
+    <string name="state_viewmodel_desc">MVI architecture example</string>
+    <string name="state_side_effect">Side Effects</string>
+    <string name="state_side_effect_desc">LaunchedEffect and more</string>
+    
+    <!-- Navigation Items -->
+    <string name="nav_basic">Basic Navigation</string>
+    <string name="nav_basic_desc">Page transitions</string>
+    <string name="nav_args">Argument Passing</string>
+    <string name="nav_args_desc">Pass data between pages</string>
+    <string name="nav_nested">Nested Navigation</string>
+    <string name="nav_nested_desc">Bottom nav + sub navigation</string>
+    
+    <!-- Animation Items -->
+    <string name="anim_visibility">Visibility Animation</string>
+    <string name="anim_visibility_desc">AnimatedVisibility</string>
+    <string name="anim_value">Value Animation</string>
+    <string name="anim_value_desc">animateXxxAsState</string>
+    <string name="anim_shared">Shared Elements</string>
+    <string name="anim_shared_desc">Page transition animations</string>
+    
+    <!-- Config Items -->
+    <string name="config_versions_desc">Tech stack version display</string>
+    <string name="config_dependencies_desc">Project dependency details</string>
+    <string name="config_environment_desc">Runtime environment</string>
+    
+    <!-- Common -->
+    <string name="items_count">%d items</string>
+    <string name="demo_items">Demo Items</string>
+    <string name="feature_categories">Feature Categories</string>
+</resources>
